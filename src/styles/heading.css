@@ -1,5 +1,5 @@
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  italic;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -34,13 +34,51 @@ input{
     margin-bottom: 20px;
     width: 120px;
     padding: 10px;
-    font-size: 20px;
+   
 }
 .returns span{
     margin-left: 10px;
     margin-right: 10px;
 }
 .cart{
-    margin-left: 150px;
-    font-size: 40px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.cards-main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-left: 100px;
+}
+.men{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.men img{
+    padding: 20px;
+}
+.kids{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.kids img{
+    padding: 20px;
+}
+.women{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.women img{
+    padding: 20px;
 }
